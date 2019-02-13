@@ -7,7 +7,7 @@ LOCAL_PATH:= $(call my-dir)
 #
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := blk_alloc_to_base_fs.c
+LOCAL_SRC_FILES := blk_alloc_to_base_fs.cpp
 LOCAL_MODULE := blk_alloc_to_base_fs
 LOCAL_SHARED_LIBRARIES := libcutils
 LOCAL_CFLAGS_darwin := -DHOST

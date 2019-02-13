@@ -5,9 +5,9 @@ cc_library {
     defaults: ["system-extras-cflags-defaults"],
     host_supported: true,
     srcs: [
-        "ext4_utils.c",
-        "wipe.c",
-        "ext4_sb.c",
+        "ext4_utils.cpp",
+        "wipe.cpp",
+        "ext4_sb.cpp",
     ],
     // Various instances of dereferencing a type-punned pointer in extent.c
     cflags: ["-fno-strict-aliasing"],
